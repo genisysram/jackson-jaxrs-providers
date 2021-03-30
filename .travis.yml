@@ -3,6 +3,9 @@ language: java
 git:
   quiet: true
   submodules: false
+arch:
+    - amd64
+    - ppc64le
 
 jdk:
   - openjdk8
